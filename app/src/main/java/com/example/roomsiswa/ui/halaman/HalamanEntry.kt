@@ -28,8 +28,14 @@ import com.example.roomsiswa.model.DetailSiswa
 import com.example.roomsiswa.model.EntryViewModel
 import com.example.roomsiswa.model.PenyediaViewModel
 import com.example.roomsiswa.model.UIStateSiswa
+import com.example.roomsiswa.navigasi.DestinasiNavigasi
 import kotlinx.coroutines.launch
 
+
+object DestinasiEntry: DestinasiNavigasi {
+    val route = "item_entry"
+    val titleRes = R.string.entry_siswa
+}
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun EntrySiswaScreen(
