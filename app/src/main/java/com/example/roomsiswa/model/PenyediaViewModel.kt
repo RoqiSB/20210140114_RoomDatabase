@@ -9,6 +9,7 @@ import com.example.roomsiswa.AplikasiSiswa
 object PenyediaViewModel{
 
     val Factory = viewModelFactory {
+
         initializer {
             HomeViewModel(aplikasiSiswa().container.repositoriSiswa)
         }

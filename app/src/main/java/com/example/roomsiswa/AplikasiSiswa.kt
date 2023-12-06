@@ -4,7 +4,6 @@ import android.app.Application
 import com.example.roomsiswa.repositori.ContainerApp
 import com.example.roomsiswa.repositori.ContainerDataApp
 
-class AplikasiSiswa {
     class AplikasiSiswa : Application() {
         /**
          * App Container instance digunakan oleh kelas-kelas lainnya untuk mendapatkan dependensi
@@ -16,4 +15,3 @@ class AplikasiSiswa {
             container = ContainerDataApp(this)
         }
     }
-}

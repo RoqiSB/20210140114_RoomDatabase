@@ -40,8 +40,8 @@ import com.example.roomsiswa.navigasi.DestinasiNavigasi
 import com.example.roomsiswa.navigasi.SiswaTopAppBar
 
 object DestinasiHome: DestinasiNavigasi{
-    val route = "home"
-    val titleRes = R.string.app_name
+    override val route = "home"
+    override val titleRes = R.string.app_name
 }
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
