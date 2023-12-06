@@ -16,9 +16,21 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.KeyboardType
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.roomsiswa.R
 import com.example.roomsiswa.model.DetailSiswa
+import com.example.roomsiswa.model.EntryViewModel
+import com.example.roomsiswa.model.PenyediaViewModel
 import com.example.roomsiswa.model.UIStateSiswa
+
+@Composable
+fun EntrySiswaScreen(
+    navigetBack: () -> Unit,
+    modifier: Modifier = Modifier,
+    viewModel: EntryViewModel = viewModel(factory = PenyediaViewModel.Factory)
+){
+
+}
 
 @Composable
 fun EntrySiswaBody(
